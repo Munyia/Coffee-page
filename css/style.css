@@ -6,8 +6,9 @@ body {
   background-image: url("res/Group 77725534.svg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-color: aqua;
+  background-color: black;
   width: 100%;
+  color: white;
 }
 header {
   width: 80%;
@@ -34,7 +35,7 @@ header {
   width: 20px;
   height: 20px;
 }
-button {
+#but1{
   width: 80px;
   height: 40px;
   border-radius: 0 5px 5px 0;
@@ -69,3 +70,56 @@ nav {
   color: white;
   align-items: center;
 }
+.quote {
+    position: relative;
+  padding-top: 50px;
+  padding-bottom: 20px;
+    font-size: 18px;
+    line-height: 1.6;
+    justify-content: center;
+    text-align: center;
+  }
+  .quote-top {
+    position: absolute;
+    top: 45px;
+    left: 36%;
+  
+  }
+  .quote-bottom {
+    position: absolute;
+    bottom: 10px;
+    right: 38%;
+  }
+ 
+  #p1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #938E8E;
+    padding-bottom: 20px;
+  }
+  #but{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-radius:5px;
+  }
+  #ab{
+    width: 100px;
+    height: 35px;
+    border-radius:5px;
+    background-color: white;
+    border: none;
+    color: black;
+    margin-right: 80px;
+    margin-right: 10px;
+  }
+  #or{
+    width: 100px;
+    height: 35px;
+    border-radius: 5px ;
+    background-color: #d3ad7f;
+    border: none;
+    color: white;
+    margin-right: 80px;
+  }
