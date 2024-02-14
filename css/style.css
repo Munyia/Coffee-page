@@ -20,7 +20,6 @@ justify-content: space-around;
   }
 #header1 img{
     display: flex;
-    width: 40px;
 }
 button{
     width: 80px;
