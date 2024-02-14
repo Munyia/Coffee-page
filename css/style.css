@@ -3,3 +3,37 @@
     margin: 0;
     padding: 0;
 }
+body{
+    background-image: url('res/Group 77725534.svg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    padding: 20px;  
+}
+#header1{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+}
+#img1{
+    display: flex;
+    width: 81px;
+  }
+#header1 img{
+    display: flex;
+    width: 40px;
+}
+button{
+    width: 80px;
+    height: 40px;
+    border-radius:0 10px  0 0
+}
+#header2{
+    display: flex;
+    display: inline-block;
+    flex-direction: row;
+    text-decoration: none;
+    }
+  #header2 img{
+    display: flex;
+    width: 2px;
+  }
