@@ -3,23 +3,23 @@
   padding: 0;
 }
 body {
-  background-size: cover;
+  background-position: inherit;
   background-repeat: no-repeat;
   background-color: black;
-  width: 100%;
   color: white;
 }
-header,
-section {
-  background-image: url("res/Group 77725534.svg");
-  background-size: cover;
+header {
+  background-image: url("../res/Group 77725534.svg");
   background-repeat: no-repeat;
+  background-blend-mode: hue;
+  background-size: cover;
 }
 header {
-  width: 80%;
   align-items: center;
   padding-top: 20px;
   padding-left: 120px;
+  text-align: center;
+  justify-content: center;
 }
 #header1 {
   display: flex;
