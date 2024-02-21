@@ -1,4 +1,5 @@
-* {
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap')* {
   margin: 0;
   padding: 0;
 }
@@ -17,7 +18,6 @@ header {
 header {
   align-items: center;
   padding-top: 20px;
-  padding-left: 120px;
   text-align: center;
   justify-content: center;
 }
@@ -107,6 +107,9 @@ nav {
   justify-content: center;
   text-align: center;
   border-radius: 5px;
+  align-items: center;
+  padding-bottom:7%;
+  gap: 1%;
 }
 #ab {
   width: 100px;
@@ -115,8 +118,6 @@ nav {
   background-color: white;
   border: none;
   color: black;
-  margin-right: 80px;
-  margin-right: 10px;
 }
 #or {
   width: 100px;
@@ -125,13 +126,14 @@ nav {
   background-color: #d3ad7f;
   border: none;
   color: white;
-  margin-right: 80px;
 }
 #sec2 {
   display: flex;
   padding-top: 70px;
   flex-direction: row;
-  position: relative;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
 }
 #cof{
   width: 80%;
@@ -206,10 +208,13 @@ nav {
 }
 #box1,#box2,#box3{
   border: solid white 1px;
-  max-height: 300px;
+  height: 250px;
   align-items: center;
   justify-content: center;
   text-align: center;
+}
+#box1,#box2,#box3 p{
+  gap: 4%;
 }
 #sec3-1 img{
   width: 60%;
