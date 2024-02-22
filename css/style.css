@@ -1,5 +1,4 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap')* {
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap") * {
   margin: 0;
   padding: 0;
 }
@@ -14,6 +13,7 @@ header {
   background-repeat: no-repeat;
   background-blend-mode: hue;
   background-size: cover;
+  background-size: 100vw;
 }
 header {
   align-items: center;
@@ -108,7 +108,7 @@ nav {
   text-align: center;
   border-radius: 5px;
   align-items: center;
-  padding-bottom:7%;
+  padding-bottom: 7%;
   gap: 1%;
 }
 #ab {
@@ -135,10 +135,13 @@ nav {
   text-align: center;
   align-items: center;
 }
-#cof{
+#cof {
   width: 80%;
   justify-content: center;
   align-items: center;
+}
+.beans {
+  position: relative;
 }
 #sec2-2 {
   display: flex;
@@ -147,26 +150,17 @@ nav {
 }
 .background-image1,
 .background-image2 {
-  width: 344px;
   height: 230px;
-  left: 71.54px;
   flex-direction: row;
+  position: absolute;
 }
 .background-image1 {
-  left: 71.54px;
   transform: rotate(80deg);
-  top: 65px;
-  position: absolute;
-  top: 60px;
-  left: -170px;
+left: -100%;
+
 }
 .background-image2 {
-  top: 286.41px;
-  left: 1121px;
   transform: rotate(340deg);
-  position: absolute;
-  top: 120px;
-  left: 800px;
 }
 .overlay-text {
   position: absolute;
@@ -184,7 +178,7 @@ nav {
   align-items: center;
   text-align: center;
   gap: 10px;
-  padding-bottom:20px ;
+  padding-bottom: 20px;
 }
 #line1 {
   display: flex;
@@ -206,18 +200,20 @@ nav {
   justify-content: center;
   text-align: center;
 }
-#box1,#box2,#box3{
+#box1,
+#box2,
+#box3 {
   border: solid white 1px;
   height: 250px;
   align-items: center;
   justify-content: center;
   text-align: center;
 }
-#box1,#box2,#box3 p{
+#box1,
+#box2,
+#box3 p {
   gap: 4%;
 }
-#sec3-1 img{
+#sec3-1 img {
   width: 60%;
 }
-
-
