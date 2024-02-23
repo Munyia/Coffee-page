@@ -156,7 +156,7 @@ nav {
 }
 .background-image1 {
   transform: rotate(80deg);
-left: -100%;
+ right: 0;
 
 }
 .background-image2 {
@@ -199,6 +199,8 @@ left: -100%;
   align-items: center;
   justify-content: center;
   text-align: center;
+  background-color:#191919;
+  
 }
 #box1,
 #box2,
@@ -208,12 +210,16 @@ left: -100%;
   align-items: center;
   justify-content: center;
   text-align: center;
+  gap: 10%;
 }
 #box1,
 #box2,
 #box3 p {
-  gap: 4%;
+  gap: 10%;
 }
 #sec3-1 img {
   width: 60%;
+}
+#box1{
+  background-color: #101011;
 }
