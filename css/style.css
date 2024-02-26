@@ -1,4 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap") * {
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+*{
   margin: 0;
   padding: 0;
 }
@@ -13,8 +15,7 @@ header {
   background-repeat: no-repeat;
   background-blend-mode: hue;
   background-size: cover;
-  background-size: 100vw;
-  height: fit-content;
+  min-height: 100vh;
 }
 header {
   align-items: center;
@@ -141,6 +142,7 @@ nav {
   justify-content: center;
   align-items: center;
   flex-direction: row;
+  position: relative;
 }
 #cof {
   width: 80%;
@@ -149,6 +151,7 @@ nav {
 }
 .beans {
   position: relative;
+  border: red solid 3px;
 }
 #sec2-2 {
   display: flex;
@@ -168,6 +171,7 @@ nav {
 }
 .background-image2 {
   transform: rotate(340deg);
+  left: 0;
 }
 .overlay-text {
   position: absolute;
@@ -232,6 +236,12 @@ nav {
   background-color: #101011;
   flex-direction: row;
 }
+.sec4adiv{
+  text-align: center;
+  display:flex;
+  justify-content: center;
+
+}
 #sec4a {
   display: flex;
   justify-content: center;
@@ -246,13 +256,13 @@ nav {
 #sec4b {
   display: flex;
   flex-direction: row;
-  padding-left: 3%;
+  padding-left: 5%;
+  padding-right: 5%;
   border: solid black 1px;
 }
 #sec4bb {
   display: flex;
-  flex-direction: row;
-  padding-left: 3%;
+  flex-direction: column;
   border: solid black 1px;
 }
 #sec4c {
@@ -274,6 +284,8 @@ nav {
 }
 #sec4e {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 #sec4e span{
 color:#D3AD7F;
@@ -282,4 +294,7 @@ color:#D3AD7F;
   display: flex;
  justify-content: flex-end;
   border: solid black 1px;
+}
+#sec4f img{
+  width: 80%;
 }
