@@ -228,16 +228,58 @@ nav {
 #box1 {
   background-color: #101011;
 }
-#sec4{
+#sec4 {
   background-color: #101011;
+  flex-direction: row;
 }
-#sec4a{
+#sec4a {
   display: flex;
   justify-content: center;
+  align-items: center;
   text-align: center;
   width: 100px;
   height: 35px;
   border-radius: 5px;
   background-color: #d3ad7f;
   color: white;
+}
+#sec4b {
+  display: flex;
+  flex-direction: row;
+  padding-left: 3%;
+  border: solid black 1px;
+}
+#sec4bb {
+  display: flex;
+  flex-direction: row;
+  padding-left: 3%;
+  border: solid black 1px;
+}
+#sec4c {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 30%;
+  color:#D3AD7F;
+}
+#sec4d {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 10%;
+}
+#sec4e {
+  display: flex;
+}
+#sec4e span{
+color:#D3AD7F;
+}
+#sec4f{
+  display: flex;
+ justify-content: flex-end;
+  border: solid black 1px;
 }
