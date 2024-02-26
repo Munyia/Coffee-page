@@ -14,12 +14,14 @@ header {
   background-blend-mode: hue;
   background-size: cover;
   background-size: 100vw;
+  height: fit-content;
 }
 header {
   align-items: center;
   padding-top: 20px;
   text-align: center;
   justify-content: center;
+  margin-bottom: 5%;
 }
 #header1 {
   display: flex;
@@ -128,12 +130,17 @@ nav {
   color: white;
 }
 #sec2 {
-  display: flex;
   padding-top: 70px;
-  flex-direction: row;
   justify-content: center;
   text-align: center;
   align-items: center;
+}
+#sec2a {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
 }
 #cof {
   width: 80%;
@@ -147,6 +154,7 @@ nav {
   display: flex;
   text-align: right;
   flex-grow: 1;
+  justify-content: flex-end;
 }
 .background-image1,
 .background-image2 {
@@ -156,8 +164,7 @@ nav {
 }
 .background-image1 {
   transform: rotate(80deg);
- right: 0;
-
+  right: 0;
 }
 .background-image2 {
   transform: rotate(340deg);
@@ -173,7 +180,6 @@ nav {
 #sec3 {
   display: flex;
   padding-top: 80px;
-  flex-direction: row;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -199,18 +205,17 @@ nav {
   align-items: center;
   justify-content: center;
   text-align: center;
-  background-color:#191919;
-  
+  background-color: #191919;
 }
 #box1,
 #box2,
 #box3 {
-  border: solid white 1px;
   height: 250px;
   align-items: center;
   justify-content: center;
   text-align: center;
   gap: 10%;
+  margin-bottom: 3%;
 }
 #box1,
 #box2,
@@ -220,6 +225,19 @@ nav {
 #sec3-1 img {
   width: 60%;
 }
-#box1{
+#box1 {
   background-color: #101011;
+}
+#sec4{
+  background-color: #101011;
+}
+#sec4a{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 100px;
+  height: 35px;
+  border-radius: 5px;
+  background-color: #d3ad7f;
+  color: white;
 }
