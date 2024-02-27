@@ -143,6 +143,7 @@ nav {
   align-items: center;
   flex-direction: row;
   position: relative;
+  gap: 5%;
 }
 #cof {
   width: 80%;
@@ -165,11 +166,12 @@ nav {
   position: absolute;
 }
 .background-image1 {
-  transform: rotate(80deg);
-  right: 0;
+  transform: rotate(-5deg);
+  right:1%;
+  top: 70%;
 }
 .background-image2 {
-  transform: rotate(340deg);
+  transform: rotate(180deg);
   left: 0;
 }
 .overlay-text {
@@ -257,12 +259,13 @@ nav {
   flex-direction: row;
   padding-left: 5%;
   padding-right: 5%;
-  border: solid black 1px;
+  width: 100vw;
+  gap: 5%;
 }
 #sec4bb {
   display: flex;
   flex-direction: column;
-  border: solid black 1px;
+  width: 45%;
 }
 #sec4c {
   display: flex;
@@ -272,6 +275,8 @@ nav {
   text-align: center;
   gap: 30%;
   color:#D3AD7F;
+  padding-bottom: 5%;
+  padding-top: 5%;
 }
 #sec4d {
   display: flex;
@@ -280,6 +285,7 @@ nav {
   align-items: center;
   text-align: center;
   gap: 10%;
+  padding-bottom: 5%;
 }
 #sec4e {
   display: flex;
@@ -292,7 +298,6 @@ color:#D3AD7F;
 #sec4f{
   display: flex;
  justify-content: flex-end;
-  border: solid black 1px;
 }
 #sec4f img{
   width: 80%;
