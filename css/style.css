@@ -143,7 +143,7 @@ nav {
   align-items: center;
   flex-direction: row;
   position: relative;
-  gap: 5%;
+  gap: 7%;
 }
 #cof {
   width: 80%;
@@ -166,13 +166,14 @@ nav {
   position: absolute;
 }
 .background-image1 {
-  transform: rotate(-5deg);
-  right:1%;
+  transform: rotate(180deg);
+  right:70%;
   top: 70%;
 }
 .background-image2 {
-  transform: rotate(180deg);
-  left: 0;
+  transform: rotate(1deg);
+  left: 85%;
+  top: 70%;
 }
 .overlay-text {
   position: absolute;
