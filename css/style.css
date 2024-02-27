@@ -233,6 +233,15 @@ nav {
 #box3 p {
   gap: 10%;
 }
+.amer{
+  display: flex;
+  color: #d3ad7f;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
 #sec3-1 img {
   width: 60%;
 }
