@@ -153,6 +153,11 @@ nav {
 .beans {
   position: relative;
 }
+#sec22a{
+  display: flex;
+  text-align: left;
+  justify-content: flex-start;
+}
 #sec2-2 {
   display: flex;
   text-align: right;
@@ -166,9 +171,9 @@ nav {
   position: absolute;
 }
 .background-image1 {
-  transform: rotate(180deg);
-  right:70%;
-  top: 70%;
+  transform: rotate(3deg);
+  right:85%;
+  top: 45%;
 }
 .background-image2 {
   transform: rotate(1deg);
@@ -206,7 +211,7 @@ nav {
 #sec3-1 {
   display: flex;
   flex-direction: row;
-  padding-top: 20px;
+  padding-top: 5%;
   padding-bottom: 20px;
   align-items: center;
   justify-content: center;
@@ -216,7 +221,7 @@ nav {
 #box1,
 #box2,
 #box3 {
-  height: 250px;
+  height: 50vh;
   align-items: center;
   justify-content: center;
   text-align: center;
