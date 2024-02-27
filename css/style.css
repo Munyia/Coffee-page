@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -148,9 +149,13 @@ nav a{
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  flex-direction: row;
   position: relative;
   gap: 7%;
+  border: solid white 1px;
+}
+#sec2a {
+  display: flex;
+ text-align: center;
 }
 #cof {
   width: 80%;
@@ -168,12 +173,7 @@ nav a{
 #sec2-2 {
   display: flex;
   text-align: right;
-  flex-grow: 1;
   justify-content: flex-end;
-  padding-top: 70px;
-  justify-content: center;
-  text-align: center;
-  align-items: center;
   position: relative;
 }
 .background-image1,
@@ -190,7 +190,7 @@ nav a{
 .background-image2 {
   transform: rotate(1deg);
   left: 85%;
-  top: 70%;
+  top: 65%;
 }
 .overlay-text {
   position: absolute;
