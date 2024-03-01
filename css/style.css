@@ -151,7 +151,6 @@ nav a{
   align-items: center;
   position: relative;
   gap: 7%;
-  border: solid white 1px;
 }
 #sec2a {
   display: flex;
@@ -299,7 +298,6 @@ nav a{
   flex-direction: row;
   padding-left: 5%;
   padding-right: 5%;
-  width: 100vw;
   gap: 5%;
 }
 #sec4bb {
@@ -340,10 +338,12 @@ nav a{
   justify-content: flex-end;
 }
 #sec4f img {
-  width: 70%;
+  width: 80%;
+}
+.cof-line{
+  border-top: 0.5px gray;
 }
 #sec5{
-  border: solid 1px gray;
   justify-content: space-between;
   display: flex;
  padding: 3%;
