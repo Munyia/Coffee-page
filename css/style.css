@@ -150,7 +150,7 @@ nav a{
   justify-content: center;
   align-items: center;
   position: relative;
-  gap: 7%;
+  gap: 4%;
 }
 #sec2a {
   display: flex;
@@ -168,12 +168,20 @@ nav a{
   display: flex;
   text-align: left;
   justify-content: flex-start;
+  font-family: Bebas Neue;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 30px;
 }
 #sec2-2 {
   display: flex;
   text-align: right;
   justify-content: flex-end;
   position: relative;
+  font-family: Bebas Neue;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 380x;
 }
 .background-image1,
 .background-image2 {
@@ -216,6 +224,10 @@ nav a{
   font-weight: 400;
   font-size: 20px;
   line-height: 10px;
+  font-family: Bebas Neue;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 50x;
 }
 .line {
   display: flex;
@@ -249,6 +261,9 @@ nav a{
   align-items: center;
   text-align: center;
   padding-bottom: 5%;
+}
+.box11{
+  color:  #979797;
 }
 #box1,
 #box2,
@@ -305,30 +320,35 @@ nav a{
   flex-direction: column;
   width: 45%;
 }
-#sec4c {
+#sec4c{
   display: flex;
-  flex-direction: row;
+  gap: 40px;
   justify-content: center;
-  align-items: center;
-  text-align: center;
-  gap: 30%;
-  color: #d3ad7f;
-  padding-bottom: 5%;
-  padding-top: 5%;
+
 }
 #sec4d {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  gap: 10%;
-  padding-bottom: 5%;
+}
+  .num{
+    color: #d3ad7f;
+    font-family:Outfit;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 90px;
+    padding-bottom: 5px;
+  }
+.alph{
+  display: flex;
+  color:#979797;
 }
 #sec4e {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  font-family: Bebas Neue;
+  font-weight: 400;
+  font-size: 20;
+  padding-top: 10%;
+  padding-left: 5%;
 }
 #sec4e span {
   color: #d3ad7f;
