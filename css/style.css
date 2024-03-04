@@ -535,3 +535,18 @@ font-family: poppins;
 #sec8{
   margin-top: 15%;
 }
+#sec9{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 3%;
+}
+#sec9a{
+  display: flex;
+  margin-bottom: 3%;
+  flex-direction: column;
+}
+#get{
+padding-bottom: 3%;
+}
