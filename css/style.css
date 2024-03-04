@@ -11,6 +11,7 @@ body {
   background-repeat: no-repeat;
   background-color: #101011;
   color: white;
+  width: 100vw;
 }
 header {
   background-image: url("../res/Group 77725534.svg");
@@ -474,4 +475,57 @@ nav a {
   font-weight: 400;
   font-size: 40px;
   line-height: 60px;
+}
+#sec7a{
+  display: flex;
+  gap: 3%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 10% 0 10%;
+  margin-bottom: 1%;
+  position: relative;
+}
+#sec7a img{
+  width: 10%;
+  text-align: center;
+}
+#sec7b, #sec7c, #sec7d{
+  display: flex;
+  width: 90%;
+  gap: 10%;
+  flex-direction: column;
+}
+#sec7b,
+#sec7d{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #191919;
+  height: 30vh;
+  border-radius: 5px;
+}
+#sec7c{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:white;
+  color: black;
+  height: 32vh;
+  border-radius: 5px;
+}
+
+.sec7f img{
+  width: 100%;
+  padding-bottom: 3%;
+}
+.sec7f{
+  position: absolute;
+bottom: -100px;
+color:white;
+gap: 10px;width: 50%;
+font-family: poppins;
+}
+.sec7e p{
+  padding-bottom: 10px;
 }
