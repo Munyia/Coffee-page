@@ -454,3 +454,24 @@ nav a {
   font-weight: 400;
   font-size: 15px;
 }
+.see{
+  color: #d3ad7f;
+}
+#gue{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 3%
+}
+.lines{
+  display: flex;
+  width: 88px;
+  border: solid white 0.3px;
+}
+#lines1{
+  font-family: Bebas Neue;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 60px;
+}
