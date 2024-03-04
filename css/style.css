@@ -393,3 +393,7 @@ nav a{
   letter-spacing: -0.1px;
   padding-bottom: 1%;
 }
+#sec6b{
+  display: flex;
+  flex-direction: row;
+}
