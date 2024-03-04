@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -81,7 +81,7 @@ nav {
   color: white;
   align-items: center;
 }
-nav a{
+nav a {
   color: white;
   text-decoration: none;
   gap: 20px;
@@ -106,7 +106,7 @@ nav a{
 .quote-bottom {
   position: absolute;
   bottom: 10px;
-  right:32%;
+  right: 32%;
 }
 #p1 {
   display: flex;
@@ -156,7 +156,7 @@ nav a{
 }
 #sec2a {
   display: flex;
- text-align: center;
+  text-align: center;
 }
 #cof {
   width: 80%;
@@ -264,8 +264,8 @@ nav a{
   text-align: center;
   padding-bottom: 5%;
 }
-.box11{
-  color:  #979797;
+.box11 {
+  color: #979797;
 }
 #box1,
 #box2,
@@ -322,7 +322,7 @@ nav a{
   flex-direction: column;
   width: 45%;
 }
-#sec4c{
+#sec4c {
   display: flex;
   gap: 40px;
   justify-content: center;
@@ -331,17 +331,17 @@ nav a{
   display: flex;
   flex-direction: row;
 }
-  .num{
-    color: #d3ad7f;
-    font-family:Outfit;
-    font-size: 50px;
-    font-weight: 600;
-    line-height: 90px;
-    padding-bottom: 5px;
-  }
-.alph{
+.num {
+  color: #d3ad7f;
+  font-family: Outfit;
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 90px;
+  padding-bottom: 5px;
+}
+.alph {
   display: flex;
-  color:#979797;
+  color: #979797;
 }
 #sec4e {
   display: flex;
@@ -361,15 +361,15 @@ nav a{
 #sec4f img {
   width: 80%;
 }
-.cof-line{
-  border-top: 0.5px #4A4A4A;
+.cof-line {
+  border-top: 0.5px #4a4a4a;
 }
-#sec5{
+#sec5 {
   justify-content: space-between;
   display: flex;
- padding: 3%;
+  padding: 3%;
 }
-#hea{
+#hea {
   padding-top: 5%;
   display: flex;
   justify-content: center;
@@ -377,15 +377,15 @@ nav a{
   text-align: center;
   flex-direction: column;
 }
-#fre{
+#fre {
   display: flex;
-  color: #D3AD7F;
-  font-family: Bebas Neue ;
+  color: #d3ad7f;
+  font-family: Bebas Neue;
   font-weight: 400;
   font-size: 34px;
   padding-bottom: 1%;
 }
-#lo{
+#lo {
   display: flex;
   font-family: inter;
   font-weight: 400;
@@ -393,39 +393,64 @@ nav a{
   letter-spacing: -0.1px;
   padding-bottom: 1%;
 }
-#img11{
+#img11 {
   width: 15%;
 }
-.sec6ca{
+.sec6ca {
   display: flex;
   align-items: center;
   padding-bottom: 3%;
   gap: 3%;
   padding-top: 10%;
 }
-#sec6b{
+#sec6b {
   display: flex;
   flex-direction: row;
   gap: 3%;
   justify-content: center;
   align-items: center;
-  padding-bottom:5% ;
-  padding-top:5% ;
+  padding-bottom: 5%;
+  padding-top: 5%;
 }
-.vl{
+.vl {
   border: white solid 1px;
   height: 150px;
   align-self: center;
 }
-#sec6d{
+#sec6d {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 3%;
+  padding-bottom: 10%;
 }
 #sec6da,
-#sec6db{
+#sec6db {
+  display: flex;
   border: white solid 1px;
-  width: 7%;
-  height: 10%;
+  border-radius: 5px;
+  width: 10%;
+  height: 46px;
+}
+#sec6da {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: white;
+  color: black;
+  font-family: inter;
+  font-weight: 400;
+  font-size: 15px;
+}
+#sec6db{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #d3ad7f;
+  color: white;
+  font-family: inter;
+  font-weight: 400;
+  font-size: 15px;
 }
