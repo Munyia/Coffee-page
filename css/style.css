@@ -547,6 +547,7 @@ nav a {
   text-align: center;
   margin-top: 3%;
   flex-direction: column;
+  position: relative;
 }
 #sec9a {
   display: flex;
@@ -620,4 +621,16 @@ nav a {
   padding-top: 10px;
   padding-left: 10px;
   margin-bottom: 1%;
+}
+#sec9f img{
+  flex-direction: row;
+  position: absolute;
+}
+#sec9fa{
+  right: 100px;
+  top: 100%;
+}
+#sec9fa{
+  left: 85%;
+  top: 65%;
 }
