@@ -535,6 +535,9 @@ font-family: poppins;
 #sec8{
   margin-top: 15%;
 }
+#sec8 img{
+  width: 100vw;
+}
 #sec9{
   display: flex;
   justify-content: center;
@@ -550,4 +553,25 @@ font-family: poppins;
 }
 #get{
 padding-bottom: 3%;
+}
+#sec9b{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+#sec9c{
+  display: flex;
+  gap: 3%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.buttt{
+  width: 25%;
+  border: solid 1px white;
+  height: 5vh;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #101011;
+  color: white;
 }
