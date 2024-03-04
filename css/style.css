@@ -393,7 +393,39 @@ nav a{
   letter-spacing: -0.1px;
   padding-bottom: 1%;
 }
+#img11{
+  width: 15%;
+}
+.sec6ca{
+  display: flex;
+  align-items: center;
+  padding-bottom: 3%;
+  gap: 3%;
+  padding-top: 10%;
+}
 #sec6b{
   display: flex;
   flex-direction: row;
+  gap: 3%;
+  justify-content: center;
+  align-items: center;
+  padding-bottom:5% ;
+  padding-top:5% ;
+}
+.vl{
+  border: white solid 1px;
+  height: 150px;
+  align-self: center;
+}
+#sec6d{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3%;
+}
+#sec6da,
+#sec6db{
+  border: white solid 1px;
+  width: 7%;
+  height: 10%;
 }
