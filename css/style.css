@@ -423,7 +423,7 @@ nav a {
   justify-content: center;
   align-items: center;
   gap: 3%;
-  padding-bottom: 10%;
+  padding-bottom: 8%;
 }
 #sec6da,
 #sec6db {
@@ -463,7 +463,9 @@ nav a {
   justify-content: center;
   align-items: center;
   text-align: center;
-  gap: 3%
+  gap: 3%;
+  margin-bottom: 5%;
+  
 }
 .lines{
   display: flex;
@@ -495,6 +497,7 @@ nav a {
   width: 90%;
   gap: 10%;
   flex-direction: column;
+  color: #938E8E;
 }
 #sec7b,
 #sec7d{
@@ -522,10 +525,13 @@ nav a {
 .sec7f{
   position: absolute;
 bottom: -100px;
-color:white;
+color:#938E8E;
 gap: 10px;width: 50%;
 font-family: poppins;
 }
 .sec7e p{
   padding-bottom: 10px;
+}
+#sec8{
+  margin-top: 15%;
 }
