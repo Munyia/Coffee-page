@@ -541,6 +541,7 @@ font-family: poppins;
   align-items: center;
   text-align: center;
   margin-top: 3%;
+  flex-direction: column;
 }
 #sec9a{
   display: flex;
