@@ -498,7 +498,7 @@ nav a {
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 0 0 0 10%;
+  padding: 0 30 0 5%;
   margin-bottom: 1%;
   position: relative;
 }
@@ -535,7 +535,6 @@ nav a {
 }
 
 .sec7f img {
-  width: 100%;
   padding-bottom: 3%;
 }
 .sec7f {
@@ -667,4 +666,7 @@ nav a {
 }#sec9fa,
 #sec9fb {
   flex: 0 0 auto;
+}
+#sec10{
+  display: flex;
 }
