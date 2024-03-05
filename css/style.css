@@ -32,7 +32,6 @@ header {
   text-align: center;
   justify-content: center;
   margin-bottom: 5%;
-  padding: 20 75px 0 75px;
 }
 #header1 {
   display: flex;
@@ -52,6 +51,9 @@ header {
 #sea {
   width: 20px;
   height: 20px;
+  font-family: Inter;
+  font-weight: 600;
+  font-size: 15px;
 }
 #but1 {
   width: 80px;
@@ -61,6 +63,10 @@ header {
   border: none;
   color: white;
   margin-right: 80px;
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: -0.1;
 }
 #headright {
   justify-content: flex-end;
@@ -83,37 +89,47 @@ nav {
   display: flex;
   flex-direction: row;
   padding-bottom: 10px;
-  gap: 5px;
+  margin-left: 2%;
+  gap: 3%;
   text-decoration: none;
   color: white;
   align-items: center;
+  font-family: Inter;
+  font-weight: 600;
+  font-size: 15px;
 }
 nav a {
   color: white;
   text-decoration: none;
   gap: 20px;
 }
+
 .quote {
+  display: flex;
   position: relative;
   padding-top: 45px;
   padding-bottom: 20px;
-  font-size: 50px;
-  font-weight: 300;
-  line-height: 1.6;
+  font-size: 100px;
+  font-weight: 400;
   justify-content: center;
   text-align: center;
+  align-items: center;
   font-family: Bebas Neue;
-  letter-spacing: 1.5;
+  letter-spacing: -0.5;
 }
 .quote-top {
   position: absolute;
   top: 45px;
-  left: 28%;
+  left: 14%;
+  width: 48px;
+  height: 50px;
 }
 .quote-bottom {
   position: absolute;
-  bottom: 10px;
-  right: 32%;
+  bottom: 60px;
+  right: 18%;
+  width: 48px;
+  height: 50px;
 }
 #p1 {
   display: flex;
@@ -121,6 +137,10 @@ nav a {
   text-align: center;
   color: #938e8e;
   padding-bottom: 20px;
+  font-family:Poppins;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: -0.1;
 }
 #but {
   display: flex;
@@ -132,20 +152,26 @@ nav a {
   gap: 1%;
 }
 #ab {
-  width: 100px;
+  width: 120px;
   height: 35px;
   border-radius: 5px;
   background-color: white;
   border: none;
   color: black;
+  font-family:Inter;
+  font-size: 16px;
+  font-weight: 600;
 }
 #or {
-  width: 100px;
+  width: 120px;
   height: 35px;
   border-radius: 5px;
   background-color: #d3ad7f;
   border: none;
   color: white;
+  font-family:Inter;
+  font-size: 16px;
+  font-weight: 600;
 }
 #sec2 {
   padding-top: 70px;
@@ -165,6 +191,9 @@ nav a {
 #sec2a {
   display: flex;
   text-align: center;
+  font-family:Bebas Neue;
+  font-size: 32px;
+  font-weight: 400;
 }
 #cof {
   width: 80%;
@@ -226,19 +255,15 @@ nav a {
   gap: 10px;
   padding-bottom: 20px;
   position: relative;
-  top: 25px;
+  top: 53px;
   width: 100%;
 }
 
 #line1 {
   display: flex;
   font-weight: 400;
-  font-size: 20px;
-  line-height: 10px;
+  font-size: 50px;
   font-family: Bebas Neue;
-  font-size: 28px;
-  font-weight: 400;
-  line-height: 50x;
 }
 .line {
   display: flex;
@@ -276,6 +301,14 @@ nav a {
 }
 .box11 {
   color: #979797;
+  font-family: poppins;
+  font-size: 16px;
+  font-weight: 400;
+}
+.box12{
+  font-family: poppins;
+  font-size: 20px;
+  font-weight: 700;
 }
 #box1,
 #box2,
@@ -291,12 +324,16 @@ nav a {
   text-align: center;
   justify-content: center;
   width: 100%;
+  font-family: poppins;
+  font-size: 20px;
+  font-weight: 600;
 }
 #sec3-1 img {
   width: 60%;
 }
 #box1 {
   background-color: #101011;
+  padding-top: 15px;
 }
 #sec4 {
   background-color: #101011;
@@ -321,6 +358,9 @@ nav a {
   color: white;
   position: relative;
   bottom: 18px;
+  font-family: Opoppins;
+  font-size: 20px;
+  font-weight: 600;
 }
 #sec4b {
   display: flex;
@@ -332,7 +372,7 @@ nav a {
 #sec4bb {
   display: flex;
   flex-direction: column;
-  width: 50%;
+  width: 60%;
 }
 #sec4c {
   display: flex;
@@ -354,6 +394,9 @@ nav a {
 .alph {
   display: flex;
   color: #979797;
+  font-family: poppins;
+  font-size: 20px;
+  font-weight: 500;
 }
 #sec4e {
   display: flex;
@@ -689,15 +732,21 @@ nav a {
 #sec9fb {
   flex: 0 0 auto;
 }
+footer{
+padding: 5%;
+  background-repeat: no-repeat;
+background-image: url("../res/nathan-dumlao-c2Y16tC3yO8-unsplash\ 1\ 1.svg");
+}
 #sec10{
   margin-top: 5%;
-  margin-bottom: 10%;
+  padding-top: 5%;
   display: flex;
   justify-content:space-around;
   padding-left: 5%;
 }
 #sec10b{
   display: flex;
+  margin-bottom: 5%;
   justify-content: space-evenly;
 gap: 50px;
 width: 70%;
@@ -713,4 +762,13 @@ letter-spacing: -0.1;
   font-size: 32px;
   letter-spacing: -0.1;
   color: #d3ad7f;
+}
+#copy{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: -0.1;
 }
