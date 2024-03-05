@@ -327,12 +327,12 @@ nav a {
   flex-direction: row;
   padding-left: 5%;
   padding-right: 5%;
-  gap: 5%;
+  gap:1%;
 }
 #sec4bb {
   display: flex;
   flex-direction: column;
-  width: 45%;
+  width: 50%;
 }
 #sec4c {
   display: flex;
@@ -359,7 +359,7 @@ nav a {
   display: flex;
   font-family: Bebas Neue;
   font-weight: 400;
-  font-size: 20;
+  font-size: 28;
   padding-top: 10%;
   padding-left: 5%;
 }
@@ -372,7 +372,7 @@ nav a {
 }
 #sec4f img {
   width: 80%;
-  margin-right: 20px;
+  margin-right: 10px;
 }
 .cof-line {
   border-top: 0.5px #4a4a4a;
@@ -419,6 +419,12 @@ nav a {
   padding-top: 10%;
   width: 100%;
 }
+.many{
+ font-family: Bebas Neue;
+ font-weight: 400;
+ font-size: 32px;
+ letter-spacing: -0.1px;
+}
 #sec6b {
   display: flex;
   flex-direction: row;
@@ -426,7 +432,13 @@ nav a {
   justify-content: center;
   align-items: center;
   padding-bottom: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
   padding-top: 5%;
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: -0.1px;
 }
 .vl {
   border: white solid 1px;
@@ -456,8 +468,9 @@ nav a {
   background-color: white;
   color: black;
   font-family: inter;
-  font-weight: 400;
+  font-weight: 600;
   font-size: 15px;
+  border: none;
 }
 #sec6db {
   display: flex;
@@ -467,11 +480,15 @@ nav a {
   background-color: #d3ad7f;
   color: white;
   font-family: inter;
-  font-weight: 400;
+  font-weight: 600;
   font-size: 15px;
+  border: none;
 }
 .see {
   color: #d3ad7f;
+  font-family:Inter;
+  font-weight: 600;
+  font-size: 16px;
 }
 #gue {
   display: flex;
@@ -501,6 +518,9 @@ nav a {
   padding: 0 30 0 5%;
   margin-bottom: 1%;
   position: relative;
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 13.72px;
 }
 #sec7a img {
   width: 10%;
@@ -544,6 +564,8 @@ nav a {
   gap: 10px;
   width: 50%;
   font-family: poppins;
+  font-weight: 500;
+  font-size: 16px;
 }
 .sec7e p {
   padding-bottom: 10px;
@@ -668,5 +690,27 @@ nav a {
   flex: 0 0 auto;
 }
 #sec10{
+  margin-top: 5%;
+  margin-bottom: 10%;
   display: flex;
+  justify-content:space-around;
+  padding-left: 5%;
+}
+#sec10b{
+  display: flex;
+  justify-content: space-evenly;
+gap: 50px;
+width: 70%;
+font-family: Inter;
+font-weight: 500;
+font-size: 15px;
+letter-spacing: -0.1;
+}
+#sec10c{
+  display: flex;
+  font-family: Bebas Neue;
+  font-weight: 400;
+  font-size: 32px;
+  letter-spacing: -0.1;
+  color: #d3ad7f;
 }
